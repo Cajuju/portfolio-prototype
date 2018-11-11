@@ -1,2 +1,8 @@
 # portfolio-prototype
-[OUTDATED, Created 2016] After spending a month in Namibia, South Africa for computer science related work, I decided to give myself some web development experience by creating a personal website about myself.
+I store an example of the prototype version of this website as a reminder of how much progress I have made over the years.
+
+#Screenshots
+![Alt text](screenshots/Screenshot_1.PNG?raw=true "Screenshot 1")
+![Alt text](screenshots/Screenshot_2.PNG?raw=true "Screenshot 2")
+![Alt text](screenshots/Screenshot_Portfolio.PNG?raw=true "Screenshot Portfolio")
+![Alt text](screenshots/Screenshot_About.PNG?raw=true "Screenshot About")
