@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Web developer and Computer Science student">
+    <!--To ensure proper rendering an touch zooming-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!--Calls my stylesheet & Overwrites any bootstrap CSS that I re-wrote-->
+    <!--Must be after Bootstrap Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="Home_style.css"> </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+
+<body>
+    <!------------------>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand nav" href="Home.html">BRMC</a> </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="About.html">About Me</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!------------------>
+    <!--------------------------->
+    <!--------------------------->
+    <!--Main image of home page-->
+    <div class="jumbotron">
+        <h1 class="name">Brian Cajulis</h1>
+        <p class="title"><b>Web Developer And Computer Science Student</b></p>
+        <p>
+            <button type="button" class="btn btn-default"> <a href="#bookmark"><span class="glyphicon glyphicon-menu-down"></span></a> </button>
+        </p>
+    </div>
+    <div id="bookmark">
+        <br>
+        <br> </div>
+    <!------------------>
+    <!-----Third Post-->
+    <article class="post">
+        <div>
+            <header class="firstPost">
+                <h2 class="firstPost-Title">First Day With Bootstrap!</h2> </header>
+            <section class="firstPost-Descript">
+                <p>Today, I have spent my time studying Bootstrap. Bootstrap seemed very confusing at first, but after a couple hours of looking through the code, I managed to get a very rough understanding of it. Bootstrap is a front-end framework that saves many Web Developers a lot of time styling what they desire for their website. Bootstrap is implemented within my navigation bar and top image at the moment, but I wish to expand my website with the help of Bootstrap. After the small implementation of Bootstrap, my personal website is now mobile friendly since Bootstrap focuses on mobile devices first. </p>
+            </section>
+            <footer class="postEnd">
+                <p class="postSubject"><strong>Website</strong></p>
+                <time datetime="2016-06-06"><strong>16 June, 2016</strong></time>
+            </footer>
+        </div>
+    </article>
+    <!----------------->
+    <!------------------>
+    <!-----Second Post-->
+    <article class="post">
+        <div>
+            <header class="firstPost">
+                <h2 class="firstPost-Title">Personal Website: It is coming along!</h2> </header>
+            <section class="firstPost-Descript">
+                <p>I started the development of my personal website on June 6, 2016. Currently the website is entirely made from HTML and CSS, but I plan to implement JavaScript and PHP. Tomorrow I will start researching Node.js and Ruby to see how I can implement it into my website. My website is not much, but I have learned so much and enjoyed development just as much. I am also looking forward to the Web Programming class that I will be taking in the future.</p>
+            </section>
+            <footer class="postEnd">
+                <p class="postSubject"><strong>Website</strong></p>
+                <time datetime="2016-06-06"><strong>10 June, 2016</strong></time>
+            </footer>
+        </div>
+    </article>
+    <!----------------->
+    <!----------------->
+    <!-----First Post-->
+    <article class="post">
+        <div>
+            <header class="firstPost">
+                <h2 class="firstPost-Title">Welcome To My Personal Website!</h2> </header>
+            <section class="firstPost-Descript">
+                <p>My name is Brian Robert Cajulis, and welcome to my personal website. The purpose of this website is for me to play around with HTML, CSS, JavaScript, PHP, and other coding languages that will help me develop and grow in my skills as a Web Developer. I took interest in becoming a web developer after a month long trip from Namibia, which I talk about in my <a class="post-Link" href="Portfolio.html">Portfolio</a> page.</p>
+            </section>
+            <footer class="postEnd">
+                <p class="postSubject"><strong>Website</strong></p>
+                <time datetime="2016-06-06"><strong>6 June, 2016</strong></time>
+            </footer>
+        </div>
+    </article>
+    <!----------------->
+    <!---------------->
+    <!-----Copyright-->
+    <footer class="endPage">
+        <p class="brand">&copy 2016 Cajuju</p>
+    </footer>
+    <!---------------->
+    <!--At the bottom so page will load faster-->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+        $("button").delay(1000).animate({
+            opacity: 1,
+            bottom: '250px'
+        }, 700);
+        
+        $(".name").delay(1000).animate({
+            opacity: 1,
+            bottom: '250px',
+        }, 700);
+        $(".title").delay(1000).animate({
+            opacity: 1,
+            bottom: '250px'
+        }, 700);
+        
+    </script>
+</body>
+
+</html>

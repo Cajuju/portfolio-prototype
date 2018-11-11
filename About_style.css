@@ -1,0 +1,187 @@
+/*Custom font*/
+@font-face{
+    font-family: lucida;
+    src: url("myFont.ttf");
+}
+
+@font-face{
+    font-family: gothic;
+    src: url("CenturyGothic.ttf");
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+Body {
+    margin: 0 0 150px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/***************************************/
+/***************************************/
+/*Nav Bar Style
+This is used through all the pages*/
+.navbar-default{
+    background-color: #088A85;
+    border-color: #088A85;
+    font-family: lucida;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+
+    /*Title*/
+.navbar-default .navbar-brand{
+    color: white;
+    font-size: 25px;
+    border-right: white 1px solid;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    background-color: #009999;
+    color: white;
+}
+
+    /*Link*/
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li:nth-child(1) {
+    border-right: white .5px solid;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #009999;
+    color: white;
+}
+
+    /* mobile version */
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #009999;
+}
+
+    /*Menu Button Style*/
+.navbar-toggle{
+    padding: 15px 20px;
+    font-size: 22px;
+    border-radius: 8px;
+    position: relative;
+    top: 3px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    width: 30px;
+    height: 3px;
+}
+/***************************************/
+
+/***************************************/
+/*=Footer of Page======================*/
+.endPage{
+    background-color: #1C1C1C;
+    color: white;
+    height: 100px;
+}
+/***************************************/
+/*Image*/
+img{
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+@media all and (max-width: 1900px){
+    img{
+        width: 156%;
+    }
+}
+
+@media all and (max-width: 1000px){
+    img{
+        width: 100%;
+    }
+}
+/****************************************/
+/*Style for main content of this page*/
+.container-fluid .row{
+    position: relative;
+    top: 70px;
+}
+
+.mainContent {
+    position: relative;
+    width: 70%;
+    margin: 0 0 0 15%;
+    padding-bottom: .5rem;
+    word-wrap: break-word;
+    
+}
+
+.mainContent h1{
+    font-size: 55px;
+    font-family: gothic;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    line-height: 2;
+    margin: 0;
+    font-family: gothic;
+    padding: 0 0 15px 0;
+}
+
+p a:link{
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+    color: black;
+}
+
+p a:visited{
+    color: black;
+    
+}
+
+/******************************************/
+
+/******************************************/
+/*Footer of each page*/
+.endPage{
+    background-color: #1C1C1C;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.brand{
+    text-align: right;
+    width: 80%;
+    margin: 0px;
+    padding: 43px 20px 20px 20px;
+    font-size: 20px
+}
+/******************************************/
